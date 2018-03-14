@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Create User</title>
+    </head>
+    
+    <body>
+        <h1>Create User</h1>
+        <hr>
+        <form action = "create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend>User Form</legend>
+                 <div>   
+                    <label for = "usernameid">Username</label>
+                    <input type="text" name="username" id = "usernameid" placeholder="username" size="30" maxlength="12">
+                    
+                    <label for = "inputid">Password</label>
+                    <input type="password" name = "password" size="30" maxlength="8" placeholder="password" id ="inputid">
+                </div>
+                <br>
+                <div>
+                    <label for = "superherosid" >Select your favourite superheroe</Label>
+                    <input id = "superherosid" type="radio" name = "superheros" value="Superman">Superman
+                    <input id = "superherosid" type="radio" name = "superheros" value= "Batman" checked >Batman
+                    <input id = "superherosid" type="radio" name = "superheros" value= "Wonder Woman">Wonder Woman
+                    <input id = "superherosid" type="radio" name = "superheros" value= "Flash">Flash
+                    <input id = "superherosid" type="radio" name = "superheros" value= "Thor">Thor
+                    <input id = "superherosid" type="radio" name = "superheros" value= "Hulk">Hulk
+                </div>
+                <br>
+                <div>
+                    <label for = "videogamesid">Select your favourite video game</label>
+                    <input id = "videogamesid" type = "checkbox" name = "videogames" value="Fifa" checked>Fifa
+                    <input id = "videogamesid" type = "checkbox" name = "videogames" value="NHL" >NHL
+                    <input id = "videogamesid" type = "checkbox" name = "videogames" value="Residen Evil" >Residen Evil
+                    <input id = "videogamesid" type = "checkbox" name = "videogames" value="Uncharted" >Uncharted
+                </div>        
+                <br>
+                <div>
+                    <input type="hidden" name = "userid" value="2300">
+                </div>
+                <br>
+                <div>
+                    <input type = "image" src="img/register_button.png" width="250" height="100">
+                </div>    
+            </fieldset>    
+        </form>    
+    </body>
+</html>

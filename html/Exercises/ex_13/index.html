@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr>
+        <form action="#" method="post" enctype="multipart/form-data">
+            
+            <div>
+                <label for = "nameid">Name</label>
+                <input id = "nameid" type="text" name="name" placeholder="name"/>
+            </div>
+            <div>
+                <label for = "movieid">Select a movie</label>
+                <select id = "movieid" name = "movies">
+                    <option value="deadpool">Deadpool</option>
+                    <option value="batman_vs_superman">Batman v Superman</option>
+                    <option value="civil_war">Civil War</option>
+                    <option value="doctor_strange">Doctor Strange</option>
+                    <option value="suicide_squad">Suicide Squad</option>
+                    <option value="apocalypse">X-Men: Apocalypse</option>
+                    <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+                    <option value="justice_league">Justice League</option>
+                    <option value="logan">Logan</option>
+                    <option value="homecoming">Spider-Man: Homecoming</option>
+                    <option value="wonder_woman" selected>Wonder Woman</option>    
+                    <option value="thor_ragnarok">Ragnarok</option>    
+                    <option value="black_panther">Black Panther</option>    
+                </select>
+            <div>  
+                Bio:<br> 
+                <textarea id = "bioid" name = "bio" placeholder="bio" cols = "50" rows = "10"></textarea>
+            </div>
+
+            <div>
+                <label for = "fileid">Select a file</label>
+                <input id = "fileid" type="file" name = "filename">
+            </div>  
+
+            <button value="Clear-form" name = "Clear-form">Clear form</button>
+            <br>
+            <button value="Add-new-user" name = "Add-new-user">Add new user</button>
+        </form>
+        
+    </body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    background-color: lightsalmon;
+    font-family: Arial;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
+h1{
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    background-color: lawngreen
+}
+/* format by class
+.thisHeader1{
+    font-size: 52px;
+}
+/* format by id
+#Paragraph1{
+    font-size: 52px;
+}*/ 
+
+button{
+    color: white;
+    font-size: 125%;
+    border-radius: 4px;
+    border: none;
+    text-shadow:0 1px 1px rgba(0,0,0,0.2);
+    background: rgb(255, 0, 0);
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(221, 123, 66);
+    padding: 12px;
+}
