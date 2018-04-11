@@ -8,38 +8,64 @@
         <meta name="author" content="TRI DANG">
         <meta name="keyword" content="HTML,CSS,XML,JavaScript, C#, 1C:Enterprise, POS, ERP, MPS"> 
         <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <title>TD</title>
     </head>
     <body>
-        <nav>
-            <div align = "right" style = "font-size:24px;">
-                <a href="index.html">Home</a>
-                <a href="about.html" target="_blank"> About</a>
-                <a href="contact.html" target="_blank">Contact</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
-            </div>  
-        </nav>
+        <!-- <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html" target="_blank">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank">Contact me</a>
+            </li>
+        </ul> -->
    
-        <img src="img/logo.png">
+        <img style:"text-align:right" src="img/logo.png"></div> 
+        <nav class="nav nav-pills nav-justified">
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="about.html" target="_blank">About</a>
+            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+        </nav>
         <hr>
         <hr>
+        <span class="fixed-top"></span>
+        
         <article style="font-size:40px;">
             <p>Tri is a <span style="color:grey;"> software developer</span><br>and a <span style="color:grey;">web developer</span>.</p>
         </article>
-        <br><br><br>
-        <div> 
-            <table border="0">
-                <tr>
-                    <td><a href = "index1.html"><img src = "img/erp.png" width = "400" height = "250" alt = "ERP"></a></td>
-                    <td><a href = "index2.html"><img src = "img/1c_accounting.jpg" width = "400" height ="250" alt = "Accounting"></a></td>
-                    <td><a href = "index3.html"><img src = "img/1c_small_business.png" width = "400" height ="250" alt = "Small business"></a></td>
-                </tr>
-
-                <tr>
-                    <td><a href = "index4.html"><img src = "img/1c_enterprise.jpg" width = "400" height ="250" alt = "1C Enterprise"></a></td>
-                    <td><a href = "index5.html"><img src = "img/html5.png" width = "400" height ="250" alt = "ERP"></a></td>
-                    <td><a href = "index6.html"><img src = "img/css3.png" width = "400" height ="250" alt = "ERP"></a></td>
-                </tr>
-            </table>
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href = "index1.html"><img class="rounded" src = "img/erp.png" width = "360" height = "230" alt = "ERP"></a>
+                    <a href = "index2.html"><img class="rounded" src = "img/1c_accounting.jpg" width = "360" height ="230" alt = "Accounting"></a>
+                    <a href = "index3.html"><img class="rounded" src = "img/1c_small_business.png" width = "360" height ="230" alt = "Small business"></a>
+                </div>
+            </div>
+        </div>  
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href = "index4.html"><img class="rounded" src = "img/1c_enterprise.jpg" width = "360" height ="230" alt = "1C Enterprise"></a>
+                    <a href = "index5.html"><img class="rounded" src = "img/html5.png" width = "360" height ="230" alt = "HTML5"></a>
+                    <a href = "index6.html"><img class="rounded" src = "img/css3.png" width = "360" height ="230" alt = "CSS3"></a>
+                </div>
+            </div>
+        </div>   
+        <br>  
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href = "index4.html"><img class="rounded" src = "img/1c_enterprise.jpg" width = "360" height ="230" alt = "1C Enterprise"></a>
+                    <a href = "index5.html"><img class="rounded" src = "img/html5.png" width = "360" height ="230" alt = "HTML5"></a>
+                    <a href = "index6.html"><img class="rounded" src = "img/css3.png" width = "360" height ="230" alt = "CSS3"></a>
+                </div>
+            </div>
         </div>
 
         <div align = "center">
