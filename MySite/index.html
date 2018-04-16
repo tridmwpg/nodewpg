@@ -9,58 +9,85 @@
         <meta name="keyword" content="HTML,CSS,XML,JavaScript, C#, 1C:Enterprise, POS, ERP, MPS"> 
         <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <style type="text/css">
+            .box-shadow {
+                box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+            }
+
+            #contact-me {
+                position: fixed;
+                background-color:white;
+                width:50px;
+                height:160px;
+                right:0;
+                top:35%;
+                z-index:2000;
+                text-align:center;
+                vertical-align:30px;
+            }
+        </style>
         <title>TD</title>
     </head>
-    <body>
-        <img src="img/logo.png " class="float-right">
-        <nav class="nav nav-pills nav-justified">
+    <body class="p-3 mb-2 bg-gradient-warning text-dark">
+        <div id="contact-me" class="box-shadow text-center">
+            <div class="mt-2 mb-2">
+                <a href="https://www.facebook.com/dangminhtri" target="_blank"><img src="img/icon/facebook.png" width="30" height="30" alt="Facebook"></a>
+            </div>
+            <div class="mt-2 mb-2">
+                <a href="https://www.linkedin.com/in/tri-dang/" target="_blank"><img src="img/icon/linkin.png" width="30" height="30" alt="Link in"></a>
+            </div>
+            <div class="mt-2 mb-2">
+                <a href="mailto:dangminhtri.ck@gmail.com?subject=Hi Tri!"><img src="img/icon/email.png" width="30" height="30" alt="Email"></a>
+            </div>    
+            <div class="mt-2 mb-2">
+                <a href="tel:2049146033"><img src="img/icon/mobile.png" width="30" height="30" alt="Moblie"></a>
+            </div>    
+        </div>
+        <!-- <img src="img/logo.png " class="float-right"> -->
+        <nav class="nav nav-pills nav-justified sticky-top navbar-light bg-light">
             <a class="nav-link active" href="index.html">Home</a>
-            <a class="nav-link" href="about.html" target="_blank">About</a>
-            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+            <a class="nav-link" href="about.html">About me</a>
+            <a class="nav-link" href="contact.html">Contact me</a>
         </nav>
              
-        <article class = "mt-5 display-4">
+        <article class="mt-5 mb-5 display-4 box-shadow">
             <p>Tri is a <span class="text-secondary"> software developer</span><br>and a <span class="text-primary">web developer</span>.</p>
         </article>
        
         <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <a href = "index1.html"><img class="rounded" src = "img/erp.png" width = "360" height = "230" alt = "ERP"></a>
-                    <a href = "index2.html"><img class="rounded" src = "img/1c_accounting.jpg" width = "360" height ="230" alt = "Accounting"></a>
-                    <a href = "index3.html"><img class="rounded" src = "img/1c_small_business.png" width = "360" height ="230" alt = "Small business"></a>
+            <div class="row text-center">
+                <div class="col-sm box-shadow">
+                    <a href="index1.html"><img class="rounded" src="img/erp.png" width="350" height="230" alt="ERP"></a>
+                </div>  
+                <div class="col-sm box-shadow"> 
+                    <a href="index2.html"><img class="rounded" src="img/1c_accounting.jpg" width="350" height="230" alt="Accounting"></a>
+                </div>  
+                <div class="col-sm box-shadow">  
+                    <a href="index3.html"><img class="rounded" src="img/1c_small_business.png" width="350" height="230" alt="Small business"></a>
                 </div>
             </div>
         </div>  
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <a href = "index4.html"><img class="rounded" src = "img/1c_enterprise.jpg" width = "360" height ="230" alt = "1C Enterprise"></a>
-                    <a href = "index5.html"><img class="rounded" src = "img/html5.png" width = "360" height ="230" alt = "HTML5"></a>
-                    <a href = "index6.html"><img class="rounded" src = "img/css3.png" width = "360" height ="230" alt = "CSS3"></a>
+        <div class="mt-5 mb-5 container">
+            <div class="row text-center">
+                <div class="col-sm box-shadow">
+                    <a href="index4.html"><img class="rounded" src="img/1c_enterprise.jpg" width="350" height="230" alt="1C Enterprise"></a>
+                </div>  
+                <div class="col-sm box-shadow">  
+                    <a href="index5.html"><img class="rounded" src="img/html5.png" width="350" height="230"alt="HTML5"></a>
+                </div>
+                <div class="col-sm box-shadow">
+                    <a href="index6.html"><img class="rounded" src="img/css3.png" width="350" height="230"alt="CSS3"></a>
                 </div>
             </div>
         </div>   
-        <br>  
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <a href = "index4.html"><img class="rounded" src = "img/1c_enterprise.jpg" width = "360" height ="230" alt = "1C Enterprise"></a>
-                    <a href = "index5.html"><img class="rounded" src = "img/html5.png" width = "360" height ="230" alt = "HTML5"></a>
-                    <a href = "index6.html"><img class="rounded" src = "img/css3.png" width = "360" height ="230" alt = "CSS3"></a>
-                </div>
-            </div>
-        </div>
-
         
-        <div class = "text-center">
-            <hr>
-            <a href="https://www.facebook.com/dangminhtri" target="_blank"><img src="img/icon/facebook.png" width = "30" height ="30" alt = "Facebook"></a>
-            <a href="https://www.linkedin.com/in/tri-dang/" target="_blank"><img src="img/icon/linkin.png" width = "30" height ="30" alt = "Link in"></a>
-            <a href="mailto:dangminhtri.ck@gmail.com?subject=Hi Tri!"><img src="img/icon/email.png" width = "30" height ="30" alt = "Email"></a>
-            <a href="tel:2049146033"><img src="img/icon/mobile.png" width = "30" height ="30" alt = "Moblie"></a>
-            <hr>
+        <div class="pt-4 pb-4 mt-4 mb-4 text-center box-shadow">
+            <a class="" href="https://www.facebook.com/dangminhtri" target="_blank"><img src="img/icon/facebook.png" width="30" height="30" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/tri-dang/" target="_blank"><img src="img/icon/linkin.png" width="30" height="30" alt="Link in"></a>
+            <a href="mailto:dangminhtri.ck@gmail.com?subject=Hi Tri!"><img src="img/icon/email.png" width="30" height="30" alt="Email"></a>
+            <a href="tel:2049146033"><img src="img/icon/mobile.png" width="30" height="30" alt="Moblie"></a>
        </div>  
 
         <footer>

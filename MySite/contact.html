@@ -8,26 +8,29 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <title>Contact me</title>
     </head>
-    <body>
+    <body class="p-3 mb-2 bg-gradient-warning text-dark">
+        <nav class="nav nav-pills nav-justified sticky-top navbar-light bg-light">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About me</a>
+            <a class="nav-link active" href="contact.html">Contact me</a>
+        </nav>
         <h1>Contact information</h1>
         <hr>
-        <hr>
-        <div style = "font-size:20px">
-            <br>
-            <span>Linkin: <a href="https://www.linkedin.com/in/tri-dang/" target="_blank">www.linkedin.com/in/tri-dang/</a>
-            <br><br>
+        <h3>
+            <span>Linkin: <a href="https://www.linkedin.com/in/tri-dang/" target="_blank">www.linkedin.com/in/tri-dang/</a></span>
+        </h3>
+        <h3>     
             <span>Email: <a href="mailto:dangminhtri.ck@gmail.com">dangminhtri.ck@gmail.com</a></span> 
-            <br><br>
+        </h3> 
+        <h3>
             <span>Mobile: <a href="tel:2049146033">204.914.6033</a></span>
-        </div>
-        <br><br>
-        <!-- <label for = "message">Send me a message:<br>
-            <textarea cols="100" rows="20">input your message here</textarea>
-        </label> --> 
-        <form action="#" method="get" enctype="application/x-www-form-urlencoded"> 
-            <label style = "font-size:20px" for = "message">Send me a message:<br></label>
-            <textarea cols="100" rows="20" id="message">input your message here</textarea>
-            <div><input type="submit" value="Send"></div>
-        </form>    
+        </h3>
+        <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"><h5>Leave a message to Tri Dang:</h5></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>  
     </body>
 </html>
