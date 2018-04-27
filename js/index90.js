@@ -1,10 +1,8 @@
-let number = 0;
 let sum = 0;
 
-while (number <= 10) {
+for (let number = 0; number <=10;  number += 3) {
     console.log('number', number);
     sum = sum + number;
-    number += 3;
 }
 console.log('------');
 console.log('sum', sum);

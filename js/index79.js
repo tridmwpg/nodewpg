@@ -1,10 +1,9 @@
 let number = 0;
 let sum = 0;
 
-while (number <= 10) {
+do {
     console.log('number', number);
     sum = sum + number;
-    number += 3;
-}
-console.log('------');
+    number++;
+} while (number <= 1000) 
 console.log('sum', sum);
