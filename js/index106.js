@@ -3,11 +3,12 @@ const getUserID = function() {
 }
 
 const isUserValid = function() {
-    if (getUserID() > 10) {
+    /* if (getUserID() > 10) {
         return true;
     } else {
         return false;
-    }
+    } */
+    return (getUserID() > 10);
 }
 
 if (isUserValid()) {

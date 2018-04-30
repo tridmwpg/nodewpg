@@ -1,8 +1,9 @@
-let f = 0;
-let f1 = 1;
-let f2 = 1;
-let i = 0;
 const fibonacci = function() {
+    let f = 0;
+    let f1 = 1;
+    let f2 = 1;
+    let i = 0;
+    
     console.log(f1);
     console.log(f2);
     while (i < 8) {

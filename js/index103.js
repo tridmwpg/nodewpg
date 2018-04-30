@@ -1,8 +1,6 @@
-let k = 0;
 const evenNumbers = function() {
     for (let i = 0; i <= 100; i++) {
-        k = i%2;
-        if (k == 0) {
+        if (i%2 == 0) {
             console.log(i);
         } 
     }

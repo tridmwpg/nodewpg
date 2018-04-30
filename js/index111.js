@@ -1,17 +1,15 @@
-let k = 0;
-let number = 0;
-const even = function(number) {
-    k = number%2;
-    if (k == 0) {
+let number = 4;
+const even = function(numberParameter) {
+    /* if (numberParameter%2 == 0) {
         return true;
     } else {
         return false;
-    }
+    } */
+    return (numberParameter%2 == 0);
 }
 
-number = 4;
 if (even(number)) {
-    console.log(`${number} is even`);
+    console.log(`${number} is even number`);
 } else {
-    console.log(`${number} is odd`);
+    console.log(`${number} is odd number`);
 }
