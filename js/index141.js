@@ -1,7 +1,7 @@
 const tripExpenses = [120, 10000, 300];
 
 let budget = 0;
-let string = '';
+let string = [];
 let result = tripExpenses.map(function(expense, index) { 
     budget += expense; 
     if (index === 0) {
