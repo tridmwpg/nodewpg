@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Elements</title>
+        <style>
+            .red {
+            color: red;
+            }
+            
+            .green {
+            color: green;
+            }
+            
+            .orange {
+            color: orange;
+            }
+        </style>
+        <script>
+            window.onload = function() {
+                const li_elements = document.querySelectorAll('li');
+                li_elements[0].classList.add('orange');
+                
+                const next_ElementSibling1 = li_elements[0].nextElementSibling;
+                next_ElementSibling1.classList.add('orange');
+                   
+                const next_ElementSibling2 = next_ElementSibling1.nextElementSibling;
+                next_ElementSibling2.classList.add('orange');
+
+                const next_ElementSibling3 = next_ElementSibling2.nextElementSibling;
+                next_ElementSibling3.classList.add('orange');
+
+                const next_ElementSibling4 = next_ElementSibling3.nextElementSibling;
+                next_ElementSibling4.classList.add('orange');
+                
+                const previous_ElementSibling4 = li_elements[4].previousElementSibling;
+                const previous_ElementSibling3 = previous_ElementSibling4.previousElementSibling;
+                previous_ElementSibling3.classList.add('red');
+                const previous_ElementSibling2 = previous_ElementSibling3.previousElementSibling;
+                const previous_ElementSibling1 = previous_ElementSibling2.previousElementSibling;
+                previous_ElementSibling1.classList.add('green');
+            }
+        </script>
+    </head>
+    <body>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </body>
+</html>
